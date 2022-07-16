@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font:62.5%; 
+    /* // 1rem = 10px */
+}
+
+:root {
+  --primary-color:rgb(245,145,77);
+  --text-color: #fff;
+  --font:Roboto sans-serif;
+  --paragraph-font:1.6rem;
+  --padding-top:5rem;
+  --padding-bottom:5rem;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: var(--font);
+}
