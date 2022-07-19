@@ -11,7 +11,7 @@ html{
 :root {
   --primary-color:rgb(245,145,77);
   --text-color: #fff;
-  --font:Roboto sans-serif;
+  --font-family: "Roboto", sans-serif;
   --paragraph-font:1.6rem;
   --padding-top:5rem;
   --padding-bottom:5rem;
@@ -20,4 +20,49 @@ html{
 body{
     background-color: var(--primary-color);
     font-family: var(--font);
+}
+
+.navbar {
+    font-family: var(--font-family);
+}
+
+a.navbar-brand {
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid white;
+}
+
+.nav-button button {
+    background-color: white;
+    font-weight: 800;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.nav-button a:hover {
+    border-bottom: 3px solid var(--primary-color);
 }
